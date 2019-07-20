@@ -1,6 +1,6 @@
 import { login, getError } from "../support/utils"
 
-describe('Log-in form tests', function() {
+describe('Log-in form tests -- unsuccessful', function() {
   beforeEach(() => {
     cy.fixture('login/login_creds.json').as('user');
     cy.fixture('login/login_validation_msgs.json').as('message');
