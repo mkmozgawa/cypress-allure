@@ -1,0 +1,26 @@
+{
+  "name": "cypress-allure",
+  "version": "1.0.0",
+  "description": "cypress + allure reports setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkmozgawa/cypress-allure.git"
+  },
+  "author": "hello@magda.space",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkmozgawa/cypress-allure/issues"
+  },
+  "homepage": "https://github.com/mkmozgawa/cypress-allure#readme",
+  "devDependencies": {
+    "cypress": "^3.4.0"
+  },
+  "dependencies": {
+    "mocha": "^6.2.0",
+    "mocha-allure-reporter": "^1.4.0"
+  }
+}
