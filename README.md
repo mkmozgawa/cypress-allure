@@ -5,9 +5,9 @@ Run Cypress tests and generate Allure reports.
 ## How to run
 1. Clone this repo: `git clone https://github.com/mkmozgawa/cypress-allure.git`
 2. Go to its root: `cd cypress-allure`
-3. Install the dependencies: `npm ci`
-4. Run the existing Trello tests: `npm test`
-5. Generate the Allure report: `npm run report`
+3. Install the dependencies: `yarn`
+4. Run the existing Trello tests: `yarn test`
+5. Generate the Allure report: `yarn run report`
 
 ## Questions?
 __But where are your page objects?!__
