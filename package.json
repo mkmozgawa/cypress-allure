@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/mkmozgawa/cypress-allure#readme",
   "devDependencies": {
-    "cypress": "^3.4.0"
+    "cypress": "^4.3.0"
   },
   "dependencies": {
     "allure-commandline": "^2.9.0",
