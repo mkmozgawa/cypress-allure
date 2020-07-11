@@ -7,7 +7,8 @@ Run Cypress tests and generate Allure reports.
 2. Go to its root: `cd cypress-allure`
 3. Install the dependencies: `yarn`
 4. Run the existing Trello tests: `yarn test`
-5. Generate the Allure report: `yarn run report`
+5. Generate the Allure report: `yarn report`
+6. Show the results in the browser: `yarn serve` and go to `localhost:8081`
 
 ## Questions?
 __But where are your page objects?!__

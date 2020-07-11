@@ -6,6 +6,7 @@
   "scripts": {
     "test": "./node_modules/.bin/cypress run --reporter mocha-allure-reporter",
     "report": "./node_modules/.bin/allure generate allure-results --clean -o allure-report",
+    "serve": "./node_modules/.bin/http-server ./allure-report",
     "clean": "rm -r allure-results/ allure-report/"
   },
   "repository": {
@@ -23,6 +24,7 @@
   },
   "dependencies": {
     "allure-commandline": "^2.9.0",
+    "http-server": "^0.12.3",
     "minimist": "1.2.5",
     "mocha": "^6.2.0",
     "mocha-allure-reporter": "^1.4.0"
