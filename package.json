@@ -25,7 +25,7 @@
   "dependencies": {
     "allure-commandline": "^2.9.0",
     "http-server": "^0.12.3",
-    "minimist": "1.2.5",
+    "minimist": "1.2.6",
     "mocha": "^6.2.0",
     "mocha-allure-reporter": "^1.4.0"
   }
